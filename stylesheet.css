@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding:0%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+    background-image:url('pics/1.jpg'); 
+}
+.login{
+   
+    background-image:url('pics/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height:100%;
+    width:100%;
+    color:green;
+    position:absolute;
+    
+    
+}
+.login-box{
+    background-color: black;
+    font-size: larger;
+    font:white;
+    position:absolute;
+    height:400px;
+    width:400px;
+    margin:10%;
+    left:25%;
+    top:30px;
+    border-radius: 10px;
+    padding: 25px 25px;
+}
+.login-box button{
+    font-size: medium;
+    border-radius: 8px;
+    background-color:linear-gradient(to right,green,#dad7d1);
+    text-decoration: none;
+    padding: 14px 25px;
+    text-align:center;
+    display:inline-block;
+}
+.login-box button:hover{
+    background-color: green;
+}
+.login-box input{
+    font-size: medium;
+    border-radius:5px;
+    color:black;
+    text-align:center;
+    display:inline-block;
+    background: transparent,whitesmoke;
+    border:2px green;
+    height: 40px;
+}
+.Registration{
+    background-image:url('pics/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height:100%;
+    width:100%;
+    color:green;
+    position:absolute;
+}
+.registration-box{
+    background-color: black;
+    font-size: larger;
+    font:white;
+    position:absolute;
+    height:530px;
+    width:400px;
+    margin:10%;
+    left:25%;
+    top:2px;
+    border-radius: 10px;
+    padding: 25px 25px;
+}
+.registration-box input{
+    font-size: medium;
+    border-radius:5px;
+    color:black;
+    text-align:center;
+    display:inline-block;
+    background: transparent,whitesmoke;
+    border:2px green;
+    height: 50px;
+}
+.registration-box button{
+    font-size: medium;
+    border-radius: 8px;
+    background-color:linear-gradient(to right,green,#dad7d1);
+    text-decoration: none;
+    padding: 14px 25px;
+    text-align:center;
+    display:inline-block;
+}
+.registration-box button:hover{
+    background-color: green;
+}
+.home{
+    height:100%;
+    width:100%;
+    background-image:url('pics/Forestgreen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:beige;
+    margin:0px;
+}
+.topnav{
+    overflow:hidden;
+    background-color:rgb(86, 161, 102);
+    
+}
+.topnav a{
+    float:right;
+    display:inline-block;
+    color:black;
+    background-color:green;
+    text-align: center;
+    padding:14px 16px;
+    font-size: 17px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 2px solid black;
+    transition:0.5s;
+
+}
+.topnav a:hover{
+    background-color:rgb(106, 218, 106); 
+    
+}
+.shop{
+    height:100%;
+    width:100%;
+    background-image:url('pics/Forestgreen.jpg');
+    color:beige;
+    margin:10px;
+}
+
+.shop a{
+        float:left;
+        display:inline-block;
+        color:whitesmoke;
+        background-color:green;
+        text-align: center;
+        padding:14px 16px;
+        font-size: 17px;
+        border-radius: 30px;
+        text-decoration: none;
+        border: 2px solid black;
+        transition:0.5s;
+        vertical-align: bottom;
+        height:20px;
+        line-height:20px;
+        
+}
+.shop a:hover{
+    background-color: black;
+}
