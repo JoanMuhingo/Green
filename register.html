@@ -7,22 +7,29 @@
     <div class="Registration">
         <div class="registration-box">
             <form id="registration"action="registration.php"mehod="post">
-                <h2>Register here</h2>
+                <h2>Register Here</h2>
                 <p>Firstname</p>
-                <input type="text" name="firstname" id="firstname" placeholder="Firstname">
+                <input type="text" name="firstname" id="firstname" placeholder="Firstname" required>
                 <br>
                 <p>Lastname</p>
-                <input type="text" name="lastname" id="lastname" placeholder="lastname">
+                <input type="text" name="lastname" id="lastname" placeholder="lastname" required>
                 <br>
                 <p>Email</p>
-                <input type="text" name="Email" id="Email" placeholder="Email">
+                <input type="text" name="Email" id="Email" placeholder="Email" required>
                 <br>
-                <p>password</p>
-                <input type="text" name="password" id="password" placeholder="password">
+                <p>Password</p>
+                <input type="text" name="password" id="password" placeholder="password" required>
                 <br>
-                <p>Re-enter password</p>
-                <input type="text" name="Re-enter password" id="Re-enter password" placeholder="Re-enter password">
+                <p>Re-enter Password</p>
+                <input type="text" name="Re-enter password" id="Re-enter password" placeholder="Re-enter password" required>
                 <br>
+                <p>Gender</p>
+                <input type="checkbox" input id="female" label for="female" placeholder="female"checked>
+                <label for="female">Female</label></form>
+                <input type="checkbox" input id="male" label for="male" placeholder="male">
+                <label for="male">male</label>
+                <input type="checkbox" input id="undisclosed" label for="undisclosed" placeholder="undiclosed">
+                <label for="undisclosed">Undisclosed</label>
                 <br>
                 <form action="login.html">
                     <button type="submit">Login</button>

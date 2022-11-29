@@ -58,6 +58,7 @@
 }
 .Registration{
     background-image:url('pics/1.jpg');
+    height:100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -72,7 +73,7 @@
     font-size: larger;
     font:white;
     position:absolute;
-    height:530px;
+    height:650px;
     width:400px;
     margin:10%;
     left:25%;
@@ -90,6 +91,7 @@
     border:2px green;
     height: 50px;
 }
+
 .registration-box button{
     font-size: medium;
     border-radius: 8px;
@@ -102,14 +104,26 @@
 .registration-box button:hover{
     background-color: green;
 }
-.home{
-    height:100%;
-    width:100%;
-    background-image:url('pics/Forestgreen.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color:beige;
-    margin:0px;
+.header{
+    position:fixed;
+    top:0%; left:0; right:0;
+    background-color:rgb(86, 161, 102);
+    display:flex;   
+    align-items: center;
+    padding:1rem;
+    justify-content: space-between;
+}
+.header .logo{
+    font-size:1rem;
+    font-weight:bolder;
+    color:black;
+    text-decoration: none;
+    float:left;
+    
+
+}
+.header .logo i{
+    color:rgb(10, 221, 10);
 }
 .topnav{
     overflow:hidden;
@@ -118,7 +132,6 @@
 }
 .topnav a{
     float:right;
-    display:inline-block;
     color:black;
     background-color:green;
     text-align: center;
@@ -127,13 +140,29 @@
     border-radius: 30px;
     text-decoration: none;
     border: 2px solid black;
-    transition:0.5s;
-
+    transition:0.5s;   
 }
 .topnav a:hover{
     background-color:rgb(106, 218, 106); 
-    
 }
+.header .icons{
+    color:black;
+    float:right;
+}
+.header .icons:hover{
+    color:green;
+}
+.home{
+    height:100%;
+    width:100%;
+    background-image:url('pics/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:beige;
+    margin:0px;
+}
+
+
 .shop{
     height:100%;
     width:100%;
