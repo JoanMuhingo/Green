@@ -102,7 +102,7 @@
     display:inline-block;
 }
 .registration-box button:hover{
-    background-color: green;
+    background-color: rgb(57, 92, 4);
 }
 .header{
     position:fixed;
